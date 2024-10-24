@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+    int a;
+    char b;
+    int sum=0;
+    printf("enter the numbers of character");
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++)
+    {
+        scanf("%c",&b);
+        sum+=b;
+    }
+    print("sum of the char is %d",sum);
+}
